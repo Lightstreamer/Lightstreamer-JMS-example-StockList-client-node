@@ -20,16 +20,16 @@ jms.TopicConnectionFactory.createTopicConnection("http://localhost:8080/", "Acti
     onConnectionCreated: function(conn) {
 
       // Connection succeeded, topic subscription
-      var topicSession= conn.createSession(false, "PRE_ACK");
-      var topic= topicSession.createTopic("stocksTopic");
-      var consumer= topicSession.createConsumer(topic, null);
+      var topicSession = conn.createSession(false, "PRE_ACK");
+      var topic = topicSession.createTopic("stocksTopic");
+      var consumer = topicSession.createConsumer(topic, null);
 
       // Add listener to message consumer
       consumer.setMessageListener({
         onMessage: function(message) {
 
           // Message received
-          var feedMessage= message.getObject();
+          var feedMessage = message.getObject();
           if (!feedMessage.currentValues) {
             return;
           }
