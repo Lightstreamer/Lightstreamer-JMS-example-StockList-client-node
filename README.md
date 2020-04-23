@@ -40,7 +40,7 @@ Now, you need to configure `src/client.js` of this example by specifying the nam
 To set the JMS connector name, look where the connection is created:
 
 ```js
-  TopicConnectionFactory.createTopicConnection("http://localhost:8080/", "ActiveMQ", null, null, {
+  jms.TopicConnectionFactory.createTopicConnection("http://localhost:8080/", "ActiveMQ", null, null, {
 ```
 
 ## Launch
