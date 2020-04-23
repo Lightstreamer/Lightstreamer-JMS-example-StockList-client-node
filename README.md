@@ -21,9 +21,9 @@ In particular, this readme file details the steps required to execute the demo c
 
 * Note that, as prerequisite, the [Lightstreamer JMS Extender - Stock-List Demo - Java (JMS) Service](https://github.com/Lightstreamer/Lightstreamer-JMS-example-StockList-service-java) has to be deployed on your local Lightstreamer JMS Extender instance. Please check out that project and follow the installation instructions provided with it.
 * Launch Lightstreamer JMS Extender.
-* Get the `lightstreamer-jms-client` package using npm:
+* Get the `lightstreamer-jms-node-client` package using npm:
 
-  * `npm install lightstreamer-jms-client`
+  * `npm install lightstreamer-jms-node-client`
 
   or from the root folder of this project simply run:
 
@@ -31,11 +31,11 @@ In particular, this readme file details the steps required to execute the demo c
 
 <!-- END DESCRIPTION lightstreamer-jms-example-stocklist-client-node -->
 
-Now, you need to configure `src/index.js` of this example by specifying the name of the JMS connector you are going to use. By default, the demo will look for the <b>HornetQ</b> JMS connector, please refer to the related [Service project](https://github.com/Lightstreamer/Lightstreamer-JMS-example-StockList-service-java) for more details on the choice of a JMS broker to be used.
+Now, you need to configure `src/index.js` of this example by specifying the name of the JMS connector you are going to use. By default, the demo will look for the **ActiveMQ** JMS connector, please refer to the related [Service project](https://github.com/Lightstreamer/Lightstreamer-JMS-example-StockList-service-java) for more details on the choice of a JMS broker to be used.
 To set the JMS connector name, look where the connection is created:
 
 ```js
-  TopicConnectionFactory.createTopicConnection("http://localhost:8080/", "HornetQ", null, null, {
+  TopicConnectionFactory.createTopicConnection("http://localhost:8080/", "ActiveMQ", null, null, {
 ```
 
 You can now run the included example. From the root folder of this project run
