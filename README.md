@@ -2,7 +2,7 @@
 
 <!-- START DESCRIPTION lightstreamer-jms-example-stocklist-client-node -->
 
-This project includes a demo client showing integration between <b>Lightstreamer JMS Extender JavaScript Client Library</b> and the <b>Node.js</b> platform.<br>
+This project includes a demo client showing integration between **Lightstreamer JMS Extender JavaScript Client Library** and the **Node.js** platform.
 
 ![Screenshot](screen_node_large.png)<br>
 
