@@ -33,6 +33,6 @@
     "node"
   ],
   "dependencies": {
-    "lightstreamer-jms-node-client": ">=2.0.0-a3"
+    "lightstreamer-jms-client": ">=1.2.1"
   }
 }
