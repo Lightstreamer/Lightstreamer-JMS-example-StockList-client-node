@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-const jms = require('lightstreamer-jms-node-client');
+const jms = require('lightstreamer-jms-client');
 
 jms.TopicConnectionFactory.createTopicConnection("http://localhost:8080/", "ActiveMQ", null, null, {
     onConnectionCreated: function(conn) {
