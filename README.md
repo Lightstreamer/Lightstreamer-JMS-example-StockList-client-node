@@ -2,7 +2,7 @@
 
 <!-- START DESCRIPTION lightstreamer-jms-example-stocklist-client-node -->
 
-This project contains a sample Node.js concole application that shows how the [Lightstreamer JMS Extender JavaScript Client Library](https://www.npmjs.com/package/lightstreamer-jms-node-client) can be used to connect to Lightstreamer JMS Extender.
+This project contains a sample Node.js console application that shows how the [Lightstreamer JMS Extender JavaScript Client Library](https://www.npmjs.com/package/lightstreamer-jms-node-client) can be used to connect to Lightstreamer JMS Extender.
 
 ![Screenshot](screen_node_large.png)
 
