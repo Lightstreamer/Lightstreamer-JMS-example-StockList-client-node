@@ -50,7 +50,7 @@ $ node client.js
 
 ## See Also
 
-### Lightstreamer Service Needed by This Demo Client
+### JMS Extender Service Needed by This Demo Client
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer JMS Extender - Stock-List Demo - Java (JMS) Service](https://github.com/Lightstreamer/Lightstreamer-JMS-example-StockList-service-java)
