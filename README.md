@@ -4,7 +4,7 @@
 
 This project contains a sample Node.js console application that shows how the [_Lightstreamer JMS Extender JavaScript Client Library_](https://www.npmjs.com/package/lightstreamer-jms-node-client) can be used to connect to Lightstreamer JMS Extender.
 
-![Screenshot](screen_node_large.png)
+![Screenshot](screen-node-large.png)
 
 ## Details
 
