@@ -1,7 +1,5 @@
 # Lightstreamer JMS Extender - Basic Stock-List Demo - Node.js Client
 
-<!-- START DESCRIPTION lightstreamer-jms-example-stocklist-client-node -->
-
 This project contains a sample Node.js console application that shows how the [_Lightstreamer JMS Extender JavaScript Client Library_](https://www.npmjs.com/package/lightstreamer-jms-node-client) can be used to connect to Lightstreamer JMS Extender.
 
 ![Screenshot](screen-node-large.png)
@@ -29,9 +27,6 @@ In particular, this readme file details the steps required to execute the demo c
   $ npm install
   ```
 
-
-<!-- END DESCRIPTION lightstreamer-jms-example-stocklist-client-node -->
-
 ## Configure
 
 Now, you need to configure `src/client.js` of this example by specifying the name of the JMS connector you are going to use. By default, the demo will look for the **ActiveMQ** JMS connector, please refer to the related [Service project](https://github.com/Lightstreamer/Lightstreamer-JMS-example-StockList-service-java) for more details on the choice of a JMS broker to be used.
@@ -52,10 +47,8 @@ $ node client.js
 
 ### JMS Extender Service Needed by This Demo Client
 
-<!-- START RELATED_ENTRIES -->
 * [Lightstreamer JMS Extender - Stock-List Demo - Java (JMS) Service](https://github.com/Lightstreamer/Lightstreamer-JMS-example-StockList-service-java)
 
-<!-- END RELATED_ENTRIES -->
 ### Related Projects
 
 * [Lightstreamer JMS Extender - Basic Stock-List Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-JMS-example-StockList-client-javascript)
