@@ -1,6 +1,7 @@
 # Lightstreamer JMS Extender - Basic Stock-List Demo - Node.js Client
 
-This project contains a sample Node.js console application that shows how the [_Lightstreamer JMS Extender JavaScript Client Library_](https://www.npmjs.com/package/lightstreamer-jms-node-client) can be used to connect to Lightstreamer JMS Extender.
+This project contains a sample Node.js console application that shows how the [_Lightstreamer JMS Extender JavaScript Client Library_](https://www.npmjs.com/package/lightstreamer-jms-node-client) can be used to connect to Lightstreamer JMS Extender.  
+This projects is the JMS Extender version of the [Lightstreamer - Basic Stock-List Demo - Node.js Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-node).
 
 ![Screenshot](screen-node-large.png)
 
@@ -55,6 +56,7 @@ $ node client.js
 * [Lightstreamer JMS Extender - Basic Chat Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-JMS-example-Chat-client-javascript)
 * [Lightstreamer JMS Extender - Basic Portfolio Demo - HTML Client](https://github.com/Lightstreamer/Lightstreamer-JMS-example-Portfolio-client-javascript)
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-javascript)
+* [Lightstreamer - Basic Stock-List Demo - Node.js Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-node)
 
 ## Lightstreamer Compatibility Notes
 
